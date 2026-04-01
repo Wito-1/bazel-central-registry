@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.3/nv-codec-headers-11.1.5.3.tar.gz",
+    "integrity": "sha256-KXS5EGIZfgUn3/o6rdj+O/pmga5F9f+RgbwMpkeavVk=",
+    "strip_prefix": "nv-codec-headers-11.1.5.3",
+    "patch_strip": 0,
+    "overlay": {
+        "BUILD.bazel": "sha256-I1bmfrWYs39pSOOlD0DQ+kUsNh+/T4lsj0lqwAR0qkk=",
+        "MODULE.bazel": "sha256-h66ZYsLLQyMn9vLCLBvEQ60+Ka6zmgTGlclK7iVdiH0="
+    }
+}
