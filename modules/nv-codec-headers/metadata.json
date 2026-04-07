@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/FFmpeg/nv-codec-headers",
+    "maintainers": [
+        {
+            "github": "Wito-1",
+            "name": "Juan Ortega",
+            "github_user_id": 92177112
+        }
+    ],
+    "repository": [
+        "github:FFmpeg/nv-codec-headers"
+    ],
+    "versions": [
+        "11.1.5.3"
+    ],
+    "yanked_versions": {}
+}

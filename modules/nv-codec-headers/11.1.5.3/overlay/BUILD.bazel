@@ -1,0 +1,14 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "nv-codec-headers",
+    hdrs = [
+        "include/ffnvcodec/dynlink_cuda.h",
+        "include/ffnvcodec/dynlink_cuviddec.h",
+        "include/ffnvcodec/dynlink_loader.h",
+        "include/ffnvcodec/dynlink_nvcuvid.h",
+        "include/ffnvcodec/nvEncodeAPI.h",
+    ],
+    includes = ["include"],
+    visibility = ["//visibility:public"],
+)
